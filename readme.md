@@ -22,7 +22,7 @@ Aplikasi Android berbasis **Kotlin** untuk membantu pengguna mengatur agenda, ja
 * **Kotlin**
 * **Android Studio**
 * **XML Layout**
-* **Firebase / SQLite** *(sesuaikan dengan project kamu)*
+* **SQLite** 
 * **RecyclerView**
 * **Material Design**
 
