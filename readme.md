@@ -32,17 +32,8 @@ Aplikasi Android berbasis **Kotlin** untuk membantu pengguna mengatur agenda, ja
 
 <div align="center">
 
-<img src="screenshot/home.jpg" width="30%">
-<img src="screenshot/detail.jpg" width="30%">
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="screenshot/1.jpg" width="30%">
-<img src="screenshot/2.jpg" width="30%">
+<img src="screenshot/1.png" width="30%">
+<img src="screenshot/2.png" width="30%">
 
 </div>
 
