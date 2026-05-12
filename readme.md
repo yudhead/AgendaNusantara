@@ -1,62 +1,72 @@
-# AgendaNusantara
+# AgendaNusantara 📅
 
-Aplikasi manajemen agenda dan kegiatan berbasis web untuk membantu pengguna dalam mengatur jadwal, mencatat agenda penting, dan memantau aktivitas secara lebih terstruktur.
-
-## 📌 Tentang Project
-
-**AgendaNusantara** adalah aplikasi web yang dirancang untuk mempermudah pengelolaan agenda harian maupun kegiatan tertentu. Project ini dikembangkan menggunakan teknologi web modern dengan tujuan memberikan sistem pencatatan agenda yang sederhana, responsif, dan mudah digunakan.
-
-Repository GitHub:
-[AgendaNusantara Repository](https://github.com/yudhead/AgendaNusantara?utm_source=chatgpt.com)
+Aplikasi Android berbasis **Kotlin** untuk membantu pengguna mengatur agenda, jadwal kegiatan, dan aktivitas harian dengan lebih mudah dan terorganisir.
 
 ---
 
-## 🚀 Fitur Utama
+## ✨ Features
 
-* 🔐 Sistem Login & Autentikasi
-* 📅 Manajemen Agenda / Jadwal
-* 📝 Tambah, Edit, dan Hapus Agenda
-* 📊 Dashboard Informasi Agenda
-* 👤 Manajemen Data Pengguna
-* 📱 Responsive Design
+* 🔐 Login & Register
+* 📅 Manajemen Agenda
+* ➕ Tambah Agenda
+* ✏️ Edit Agenda
+* 🗑️ Hapus Agenda
 * 🔎 Pencarian Agenda
-* 📂 Penyimpanan Data Terstruktur
+* 📱 User Interface Modern
+* ⚡ Responsive & Lightweight
 
 ---
 
-## 📸 Tampilan Aplikasi
+## 🛠️ Tech Stack
 
+* **Kotlin**
+* **Android Studio**
+* **XML Layout**
+* **Firebase / SQLite** *(sesuaikan dengan project kamu)*
+* **RecyclerView**
+* **Material Design**
+
+---
+
+## 📸 Screenshot Aplikasi
 
 <div align="center">
 
-<img src="screenshot/1.png" width="45%">
-<img src="screenshot/2.png" width="45%">
+<img src="screenshot/home.jpg" width="30%">
+<img src="screenshot/detail.jpg" width="30%">
 
 </div>
 
-## 📂 Struktur Folder
+<br>
+
+<div align="center">
+
+<img src="screenshot/1.jpg" width="30%">
+<img src="screenshot/2.jpg" width="30%">
+
+</div>
+
+---
+
+## 📂 Struktur Project
 
 ```bash
 AgendaNusantara/
 │── app/
-│── bootstrap/
-│── config/
-│── database/
-│── public/
-│── resources/
-│── routes/
-│── storage/
-│── tests/
-│── vendor/
-│── .env
-│── artisan
-│── composer.json
-│── package.json
+│── gradle/
+│── screenshot/
+│   ├── home.jpg
+│   ├── detail.jpg
+│   ├── login.jpg
+│   └── profile.jpg
+│── build.gradle
+│── settings.gradle
+└── README.md
 ```
 
 ---
 
-## ⚙️ Cara Install Project
+## ⚙️ Installation
 
 ### 1. Clone Repository
 
@@ -64,101 +74,65 @@ AgendaNusantara/
 git clone https://github.com/yudhead/AgendaNusantara.git
 ```
 
-### 2. Masuk ke Folder Project
+### 2. Open Project
 
-```bash
-cd AgendaNusantara
-```
+Buka project menggunakan:
 
-### 3. Install Dependency PHP
+* Android Studio
 
-```bash
-composer install
-```
+### 3. Sync Gradle
 
-### 4. Install Dependency Frontend
+Tunggu hingga proses Gradle selesai.
 
-```bash
-npm install
-```
+### 4. Run Application
 
-### 5. Copy File Environment
+Jalankan aplikasi menggunakan:
 
-```bash
-cp .env.example .env
-```
-
-### 6. Generate Key Laravel
-
-```bash
-php artisan key:generate
-```
-
-### 7. Atur Database di `.env`
-
-```env
-DB_DATABASE=agendanusantara
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-### 8. Jalankan Migration
-
-```bash
-php artisan migrate
-```
-
-### 9. Jalankan Server
-
-```bash
-php artisan serve
-```
-
-Akses aplikasi melalui:
-
-```bash
-http://127.0.0.1:8000
-```
+* Emulator Android
+* Physical Device
 
 ---
 
-## 📸 Tampilan Aplikasi
+## 🚀 Requirements
 
-Tambahkan screenshot aplikasi di bagian ini.
-
-```md
-![Dashboard](public/images/dashboard.png)
-```
+* Android Studio Hedgehog atau terbaru
+* Minimum SDK sesuai project
+* Gradle terbaru
+* JDK 17+
 
 ---
 
 ## 👨‍💻 Developer
 
-Dikembangkan oleh:
-**[yudhead GitHub](https://github.com/yudhead?utm_source=chatgpt.com)**
+Developed by
+**Yudhead**
+
+GitHub:
+[github.com/yudhead](https://github.com/yudhead?utm_source=chatgpt.com)
+
+Repository Project:
+[AgendaNusantara Repository](https://github.com/yudhead/AgendaNusantara?utm_source=chatgpt.com)
 
 ---
 
 ## 🤝 Contribution
 
-Kontribusi sangat terbuka untuk pengembangan project ini.
-
-Langkah contribution:
+Contributions are welcome.
 
 1. Fork repository
-2. Buat branch baru
-3. Commit perubahan
-4. Push ke branch
-5. Buat Pull Request
-
----
-
-## 📜 License
-
-Project ini menggunakan lisensi **MIT License**.
+2. Create new branch
+3. Commit changes
+4. Push branch
+5. Create Pull Request
 
 ---
 
 ## ⭐ Support
 
-Jika project ini membantu, jangan lupa untuk memberikan ⭐ pada repository GitHub.
+Jika project ini membantu, jangan lupa berikan ⭐ pada repository GitHub.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
